@@ -1,0 +1,22 @@
+{
+  "dsa": {
+    "apps": [
+      "code"
+    ],
+    "urls": [
+      "https://leetcode.com",
+      "https://github.com"
+    ]
+  },
+  "development": {
+    "apps": [
+      "code",
+      "chrome"
+    ],
+    "urls": [
+      "https://github.com",
+      "https://vercel.com",
+      "https://railway.app"
+    ]
+  }
+}

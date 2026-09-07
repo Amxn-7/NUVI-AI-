@@ -1,0 +1,233 @@
+command,intent
+open chrome,OPEN_APPLICATION
+launch chrome,OPEN_APPLICATION
+start google chrome,OPEN_APPLICATION
+please open chrome,OPEN_APPLICATION
+can you open google chrome,OPEN_APPLICATION
+launch browser,OPEN_APPLICATION
+open the web browser,OPEN_APPLICATION
+run chrome,OPEN_APPLICATION
+open vscode,OPEN_APPLICATION
+launch visual studio code,OPEN_APPLICATION
+start vscode,OPEN_APPLICATION
+open code editor,OPEN_APPLICATION
+please launch vscode for me,OPEN_APPLICATION
+start visual studio code,OPEN_APPLICATION
+open notepad,OPEN_APPLICATION
+launch notepad,OPEN_APPLICATION
+start notepad,OPEN_APPLICATION
+open text editor,OPEN_APPLICATION
+can you launch notepad,OPEN_APPLICATION
+open calculator,OPEN_APPLICATION
+launch calculator,OPEN_APPLICATION
+start calculator app,OPEN_APPLICATION
+open terminal,OPEN_APPLICATION
+launch command prompt,OPEN_APPLICATION
+start powershell,OPEN_APPLICATION
+open spotify,OPEN_APPLICATION
+launch spotify,OPEN_APPLICATION
+start music player,OPEN_APPLICATION
+open file explorer,OPEN_APPLICATION
+launch explorer,OPEN_APPLICATION
+open vlc,OPEN_APPLICATION
+launch vlc media player,OPEN_APPLICATION
+start vlc player,OPEN_APPLICATION
+open task manager,OPEN_APPLICATION
+launch settings,OPEN_APPLICATION
+open edge browser,OPEN_APPLICATION
+launch microsoft edge,OPEN_APPLICATION
+start edge,OPEN_APPLICATION
+find my resume,FIND_FILE
+search for my resume,FIND_FILE
+locate my project report,FIND_FILE
+where is my resume,FIND_FILE
+search for resume.pdf,FIND_FILE
+find project report,FIND_FILE
+look for my assignment file,FIND_FILE
+find notes.txt,FIND_FILE
+search for my syllabus document,FIND_FILE
+where is my presentation,FIND_FILE
+locate file marks.csv,FIND_FILE
+find my marksheet,FIND_FILE
+can you search for my certificate,FIND_FILE
+look for document report.docx,FIND_FILE
+find thesis pdf,FIND_FILE
+where can i find my id card,FIND_FILE
+search for homework file,FIND_FILE
+locate my source code file,FIND_FILE
+find deep learning notes,FIND_FILE
+search for python tutorial pdf,FIND_FILE
+where is project.zip,FIND_FILE
+find receipt pdf,FIND_FILE
+look for budget spreadsheet,FIND_FILE
+search for lab manual,FIND_FILE
+locate internship offer letter,FIND_FILE
+find exam schedule,FIND_FILE
+search for my research paper,FIND_FILE
+where did i save my paper,FIND_FILE
+find final report.pdf,FIND_FILE
+look for meeting minutes.txt,FIND_FILE
+search for dataset file,FIND_FILE
+locate timetable document,FIND_FILE
+find slides.pptx,FIND_FILE
+search for index.html,FIND_FILE
+create a text file,CREATE_FILE
+make a notes file,CREATE_FILE
+create new file notes.txt,CREATE_FILE
+make a file called todo.txt,CREATE_FILE
+create a new document,CREATE_FILE
+make an empty file,CREATE_FILE
+create a python file,CREATE_FILE
+make a file named script.py,CREATE_FILE
+create scratchpad.txt,CREATE_FILE
+create a new text document,CREATE_FILE
+make a markdown file,CREATE_FILE
+create file summary.txt,CREATE_FILE
+generate a new file called test.txt,CREATE_FILE
+create an empty notes file,CREATE_FILE
+make file assignment.txt,CREATE_FILE
+create log.txt,CREATE_FILE
+start a new text file,CREATE_FILE
+create a blank file,CREATE_FILE
+make a new text file called reminder.txt,CREATE_FILE
+create file data.txt,CREATE_FILE
+create a file named output.txt,CREATE_FILE
+make a file called checklist.txt,CREATE_FILE
+create new file info.txt,CREATE_FILE
+make an empty text document,CREATE_FILE
+create mynotes.txt,CREATE_FILE
+create a file for my ideas,CREATE_FILE
+make a new document named notes,CREATE_FILE
+create file journal.txt,CREATE_FILE
+make a file called plan.txt,CREATE_FILE
+create document diary.txt,CREATE_FILE
+make a text file called readme.txt,CREATE_FILE
+create file list.txt,CREATE_FILE
+make a new file report.txt,CREATE_FILE
+open my dsa workspace,OPEN_WORKSPACE
+open my development workspace,OPEN_WORKSPACE
+launch dsa workspace,OPEN_WORKSPACE
+start coding workspace,OPEN_WORKSPACE
+open workspace for dsa,OPEN_WORKSPACE
+launch my project workspace,OPEN_WORKSPACE
+open web development workspace,OPEN_WORKSPACE
+start leetcode workspace,OPEN_WORKSPACE
+open my leetcode study environment,OPEN_WORKSPACE
+launch machine learning workspace,OPEN_WORKSPACE
+open ml workspace,OPEN_WORKSPACE
+start development environment,OPEN_WORKSPACE
+open study workspace,OPEN_WORKSPACE
+launch work environment,OPEN_WORKSPACE
+open competitive programming workspace,OPEN_WORKSPACE
+start python workspace,OPEN_WORKSPACE
+open ai research workspace,OPEN_WORKSPACE
+launch frontend workspace,OPEN_WORKSPACE
+open backend workspace,OPEN_WORKSPACE
+start college project workspace,OPEN_WORKSPACE
+open revision workspace,OPEN_WORKSPACE
+launch homework workspace,OPEN_WORKSPACE
+open dsa environment,OPEN_WORKSPACE
+start dev workspace,OPEN_WORKSPACE
+open leetcode practice workspace,OPEN_WORKSPACE
+launch data science workspace,OPEN_WORKSPACE
+open my daily workspace,OPEN_WORKSPACE
+start my study environment,OPEN_WORKSPACE
+open practice workspace,OPEN_WORKSPACE
+launch programming workspace,OPEN_WORKSPACE
+open test workspace,OPEN_WORKSPACE
+summarize this pdf,DOCUMENT_QUERY
+summarize this document,DOCUMENT_QUERY
+read report.pdf and summarize,DOCUMENT_QUERY
+what does this pdf say,DOCUMENT_QUERY
+explain this document,DOCUMENT_QUERY
+summarize file notes.txt,DOCUMENT_QUERY
+give me a summary of report.pdf,DOCUMENT_QUERY
+read this text file,DOCUMENT_QUERY
+extract key points from document,DOCUMENT_QUERY
+what is inside summary.txt,DOCUMENT_QUERY
+summarize the research paper,DOCUMENT_QUERY
+explain this text file to me,DOCUMENT_QUERY
+can you summarize this document,DOCUMENT_QUERY
+give me an overview of syllabus.pdf,DOCUMENT_QUERY
+what does notes.txt contain,DOCUMENT_QUERY
+read document assignment.pdf,DOCUMENT_QUERY
+summarize chapter 1 from this pdf,DOCUMENT_QUERY
+brief me on this document,DOCUMENT_QUERY
+explain the content of report.pdf,DOCUMENT_QUERY
+what is written in this document,DOCUMENT_QUERY
+summarize this paper for me,DOCUMENT_QUERY
+give summary of readme.txt,DOCUMENT_QUERY
+tell me what this pdf is about,DOCUMENT_QUERY
+read and explain document.pdf,DOCUMENT_QUERY
+summarize the attached pdf,DOCUMENT_QUERY
+give key takeaways from this document,DOCUMENT_QUERY
+summarize file project_proposal.pdf,DOCUMENT_QUERY
+read the contents of notes.txt,DOCUMENT_QUERY
+what are the main findings in this report,DOCUMENT_QUERY
+explain the abstract of this paper,DOCUMENT_QUERY
+analyze this csv,DATA_ANALYSIS
+analyze my marks data,DATA_ANALYSIS
+show statistics of this dataset,DATA_ANALYSIS
+analyze file marks.csv,DATA_ANALYSIS
+show summary of data.csv,DATA_ANALYSIS
+analyze dataset sales.csv,DATA_ANALYSIS
+display dataset statistics,DATA_ANALYSIS
+check for missing values in this csv,DATA_ANALYSIS
+show missing values in data.csv,DATA_ANALYSIS
+how many duplicate rows in this dataset,DATA_ANALYSIS
+clean this dataset,DATA_ANALYSIS
+clean my csv file,DATA_ANALYSIS
+remove duplicates from data.csv,DATA_ANALYSIS
+handle missing values in marks.csv,DATA_ANALYSIS
+show me a graph of the marks,DATA_ANALYSIS
+plot a histogram of scores,DATA_ANALYSIS
+generate a bar chart for this csv,DATA_ANALYSIS
+show a line plot of sales data,DATA_ANALYSIS
+visualize the dataset,DATA_ANALYSIS
+plot data from marks.csv,DATA_ANALYSIS
+draw a graph for this dataset,DATA_ANALYSIS
+show descriptive statistics for this csv,DATA_ANALYSIS
+analyze column statistics of data.csv,DATA_ANALYSIS
+inspect this csv file,DATA_ANALYSIS
+check dataset quality,DATA_ANALYSIS
+show numerical summary of marks.csv,DATA_ANALYSIS
+plot distribution of grades,DATA_ANALYSIS
+clean missing values in dataset,DATA_ANALYSIS
+give me insights on this csv,DATA_ANALYSIS
+show correlation or summary of data,DATA_ANALYSIS
+visualize column distribution,DATA_ANALYSIS
+what is artificial intelligence,GENERAL_QUESTION
+explain machine learning,GENERAL_QUESTION
+what is supervised learning,GENERAL_QUESTION
+difference between ai and machine learning,GENERAL_QUESTION
+how does linear regression work,GENERAL_QUESTION
+what is logistic regression,GENERAL_QUESTION
+explain tf idf in natural language processing,GENERAL_QUESTION
+what is an intelligent agent,GENERAL_QUESTION
+explain peas framework in ai,GENERAL_QUESTION
+what is gradient descent,GENERAL_QUESTION
+tell me a joke,GENERAL_QUESTION
+who created python,GENERAL_QUESTION
+how does a decision tree work,GENERAL_QUESTION
+what is overfitting in machine learning,GENERAL_QUESTION
+what is underfitting,GENERAL_QUESTION
+explain precision and recall,GENERAL_QUESTION
+what is an f1 score,GENERAL_QUESTION
+how does k means clustering work,GENERAL_QUESTION
+what is natural language processing,GENERAL_QUESTION
+explain bias variance tradeoff,GENERAL_QUESTION
+what is train test split,GENERAL_QUESTION
+why do we use feature extraction,GENERAL_QUESTION
+what is the capital of france,GENERAL_QUESTION
+who is the prime minister of india,GENERAL_QUESTION
+how do computers think,GENERAL_QUESTION
+explain deep learning vs machine learning,GENERAL_QUESTION
+what is cross validation,GENERAL_QUESTION
+how does a confusion matrix work,GENERAL_QUESTION
+what is data cleaning in data science,GENERAL_QUESTION
+why do we remove duplicate data,GENERAL_QUESTION
+what is pandas in python,GENERAL_QUESTION
+what is scikit learn used for,GENERAL_QUESTION
+what is matplotlib,GENERAL_QUESTION
+hello how are you,GENERAL_QUESTION
+good morning assistant,GENERAL_QUESTION

@@ -1,0 +1,48 @@
+command,intent
+what is artificial intelligence,GENERAL_QUESTION
+open ai research workspace,OPEN_WORKSPACE
+visualize the dataset,DATA_ANALYSIS
+brief me on this document,DOCUMENT_QUERY
+create a python file,CREATE_FILE
+open code editor,OPEN_APPLICATION
+search for my syllabus document,FIND_FILE
+start music player,OPEN_APPLICATION
+launch data science workspace,OPEN_WORKSPACE
+how does linear regression work,GENERAL_QUESTION
+clean my csv file,DATA_ANALYSIS
+who is the prime minister of india,GENERAL_QUESTION
+create a file for my ideas,CREATE_FILE
+read report pdf and summarize,DOCUMENT_QUERY
+find thesis pdf,FIND_FILE
+make a file called plan txt,CREATE_FILE
+create a file named output txt,CREATE_FILE
+make a file named script py,CREATE_FILE
+can you search for my certificate,FIND_FILE
+launch chrome,OPEN_APPLICATION
+why do we use feature extraction,GENERAL_QUESTION
+start development environment,OPEN_WORKSPACE
+plot data from marks csv,DATA_ANALYSIS
+start college project workspace,OPEN_WORKSPACE
+locate internship offer letter,FIND_FILE
+make a new text file called reminder txt,CREATE_FILE
+what does this pdf say,DOCUMENT_QUERY
+what is cross validation,GENERAL_QUESTION
+open web development workspace,OPEN_WORKSPACE
+open edge browser,OPEN_APPLICATION
+create new file info txt,CREATE_FILE
+look for my assignment file,FIND_FILE
+show me a graph of the marks,DATA_ANALYSIS
+analyze column statistics of data csv,DATA_ANALYSIS
+find my resume,FIND_FILE
+launch browser,OPEN_APPLICATION
+find final report pdf,FIND_FILE
+what is scikit learn used for,GENERAL_QUESTION
+open the web browser,OPEN_APPLICATION
+give me an overview of syllabus pdf,DOCUMENT_QUERY
+what does notes txt contain,DOCUMENT_QUERY
+what is supervised learning,GENERAL_QUESTION
+open my development workspace,OPEN_WORKSPACE
+show correlation or summary of data,DATA_ANALYSIS
+summarize chapter 1 from this pdf,DOCUMENT_QUERY
+start calculator app,OPEN_APPLICATION
+start vlc player,OPEN_APPLICATION

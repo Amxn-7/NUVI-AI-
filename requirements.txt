@@ -1,0 +1,17 @@
+customtkinter
+pystray
+pyautogui
+pywin32
+watchdog
+psutil
+SpeechRecognition
+PyAudio
+chromadb
+PyPDF2
+pandas
+numpy
+scikit-learn
+matplotlib
+joblib
+pillow
+pyinstaller
