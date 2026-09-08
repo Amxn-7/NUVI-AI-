@@ -75,3 +75,15 @@ what's the weather,DOCUMENT_QUERY,0.4398,2026-09-07 14:09:27
 weather right now in delhi,GENERAL_QUESTION,0.3335,2026-09-07 14:09:45
 chrome,OPEN_APPLICATION,0.7101,2026-09-07 14:10:09
 dsa workspace,OPEN_WORKSPACE,0.8918,2026-09-07 14:10:22
+chrome,OPEN_APPLICATION,0.7101,2026-09-08 09:25:53
+dsa worspace,OPEN_WORKSPACE,0.3862,2026-09-08 09:26:05
+describe yoursel,GENERAL_QUESTION,0.2014,2026-09-08 09:26:18
+joke on potato,GENERAL_QUESTION,0.3351,2026-09-08 09:26:29
+different types of grapes,DATA_ANALYSIS,0.4114,2026-09-08 09:26:53
+visualize C:\Users\acer\Documents\DesktopCompanion\NUVI (AI)\data\cleaned_sample_marks.csv,DATA_ANALYSIS,0.7323,2026-09-08 09:27:07
+visualize C:\Users\acer\Documents\DesktopCompanion\NUVI (AI)\data\sample_marks.csv,DATA_ANALYSIS,0.7323,2026-09-08 09:27:27
+visualize sample_makrs.csv,DATA_ANALYSIS,0.6966,2026-09-08 09:27:46
+visualize sample_marks.csv,DATA_ANALYSIS,0.7518,2026-09-08 09:28:10
+where i can find this,FIND_FILE,0.6680,2026-09-08 09:28:26
+find chart_sample_marks_Maths_bar.png,FIND_FILE,0.4597,2026-09-08 09:28:38
+search chart_sample_marks_Maths_bar.png,FIND_FILE,0.3296,2026-09-08 09:28:51
