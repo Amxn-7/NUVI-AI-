@@ -1,48 +1,71 @@
 command,intent
-what is artificial intelligence,GENERAL_QUESTION
+open terminal,OPEN_APPLICATION
 open ai research workspace,OPEN_WORKSPACE
-visualize the dataset,DATA_ANALYSIS
-brief me on this document,DOCUMENT_QUERY
-create a python file,CREATE_FILE
-open code editor,OPEN_APPLICATION
-search for my syllabus document,FIND_FILE
-start music player,OPEN_APPLICATION
-launch data science workspace,OPEN_WORKSPACE
-how does linear regression work,GENERAL_QUESTION
-clean my csv file,DATA_ANALYSIS
-who is the prime minister of india,GENERAL_QUESTION
-create a file for my ideas,CREATE_FILE
-read report pdf and summarize,DOCUMENT_QUERY
-find thesis pdf,FIND_FILE
+what is agile software development,GENERAL_QUESTION
+make a file called daily log txt,CREATE_FILE
+what is dynamic programming,GENERAL_QUESTION
+explain rest api architecture,GENERAL_QUESTION
+launch dsa workspace,OPEN_WORKSPACE
+look for budget spreadsheet,FIND_FILE
+start zoom meeting app,OPEN_APPLICATION
+create new file info txt,CREATE_FILE
+what is activation function in deep learning,GENERAL_QUESTION
+what is hash table data structure,GENERAL_QUESTION
+locate project presentation pptx,FIND_FILE
+check for missing values in this csv,DATA_ANALYSIS
+open text editor,OPEN_APPLICATION
+summarize thesis introduction,DOCUMENT_QUERY
+open revision workspace,OPEN_WORKSPACE
+summarize this pdf,DOCUMENT_QUERY
+analyze my marks data,DATA_ANALYSIS
+start leetcode workspace,OPEN_WORKSPACE
 make a file called plan txt,CREATE_FILE
 create a file named output txt,CREATE_FILE
-make a file named script py,CREATE_FILE
-can you search for my certificate,FIND_FILE
-launch chrome,OPEN_APPLICATION
-why do we use feature extraction,GENERAL_QUESTION
-start development environment,OPEN_WORKSPACE
-plot data from marks csv,DATA_ANALYSIS
+what is recurrent neural network,GENERAL_QUESTION
+read this text file,DOCUMENT_QUERY
+create scratch file demo txt,CREATE_FILE
+search for database notes,FIND_FILE
+launch web dev environment,OPEN_WORKSPACE
+read and explain document pdf,DOCUMENT_QUERY
+summarize the research paper,DOCUMENT_QUERY
+open vlc,OPEN_APPLICATION
 start college project workspace,OPEN_WORKSPACE
-locate internship offer letter,FIND_FILE
-make a new text file called reminder txt,CREATE_FILE
-what does this pdf say,DOCUMENT_QUERY
-what is cross validation,GENERAL_QUESTION
-open web development workspace,OPEN_WORKSPACE
-open edge browser,OPEN_APPLICATION
-create new file info txt,CREATE_FILE
-look for my assignment file,FIND_FILE
-show me a graph of the marks,DATA_ANALYSIS
-analyze column statistics of data csv,DATA_ANALYSIS
-find my resume,FIND_FILE
-launch browser,OPEN_APPLICATION
-find final report pdf,FIND_FILE
-what is scikit learn used for,GENERAL_QUESTION
-open the web browser,OPEN_APPLICATION
-give me an overview of syllabus pdf,DOCUMENT_QUERY
-what does notes txt contain,DOCUMENT_QUERY
-what is supervised learning,GENERAL_QUESTION
-open my development workspace,OPEN_WORKSPACE
-show correlation or summary of data,DATA_ANALYSIS
+make file assignment txt,CREATE_FILE
+explain polymorphism in python,GENERAL_QUESTION
+launch discord app,OPEN_APPLICATION
+make a file named styles css,CREATE_FILE
+show scatter plot of height vs weight,DATA_ANALYSIS
+start powershell,OPEN_APPLICATION
 summarize chapter 1 from this pdf,DOCUMENT_QUERY
-start calculator app,OPEN_APPLICATION
+open chrome,OPEN_APPLICATION
+make a new text file called reminder txt,CREATE_FILE
+make a markdown file,CREATE_FILE
+look for meeting minutes txt,FIND_FILE
+clean missing values in dataset,DATA_ANALYSIS
+display dataset statistics,DATA_ANALYSIS
+what is an f1 score,GENERAL_QUESTION
+show numerical summary of marks csv,DATA_ANALYSIS
+give me a quick summary of lecture notes,DOCUMENT_QUERY
+show missing values in data csv,DATA_ANALYSIS
+locate timetable document,FIND_FILE
+can you search for my certificate,FIND_FILE
+search for fee receipt pdf,FIND_FILE
+handle missing values in marks csv,DATA_ANALYSIS
+open web development workspace,OPEN_WORKSPACE
+start vscode,OPEN_APPLICATION
+plot data from marks csv,DATA_ANALYSIS
+explain section 2 of this pdf,DOCUMENT_QUERY
+who created python,GENERAL_QUESTION
 start vlc player,OPEN_APPLICATION
+where is my resume,FIND_FILE
+explain machine learning,GENERAL_QUESTION
+what is supervised learning,GENERAL_QUESTION
+open discord,OPEN_APPLICATION
+make a file named script py,CREATE_FILE
+start music player,OPEN_APPLICATION
+find exam schedule,FIND_FILE
+search for project architecture diagram,FIND_FILE
+open camera app,OPEN_APPLICATION
+what are the results reported in this pdf,DOCUMENT_QUERY
+start development environment,OPEN_WORKSPACE
+launch homework workspace,OPEN_WORKSPACE

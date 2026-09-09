@@ -231,3 +231,122 @@ what is scikit learn used for,GENERAL_QUESTION
 what is matplotlib,GENERAL_QUESTION
 hello how are you,GENERAL_QUESTION
 good morning assistant,GENERAL_QUESTION
+open discord,OPEN_APPLICATION
+launch discord app,OPEN_APPLICATION
+start zoom meeting app,OPEN_APPLICATION
+open steam,OPEN_APPLICATION
+launch steam client,OPEN_APPLICATION
+open paint,OPEN_APPLICATION
+start ms paint,OPEN_APPLICATION
+launch snipping tool,OPEN_APPLICATION
+open word,OPEN_APPLICATION
+start microsoft word,OPEN_APPLICATION
+launch excel,OPEN_APPLICATION
+open microsoft excel,OPEN_APPLICATION
+start powerpoint,OPEN_APPLICATION
+launch microsoft powerpoint,OPEN_APPLICATION
+open brave browser,OPEN_APPLICATION
+launch brave,OPEN_APPLICATION
+open opera browser,OPEN_APPLICATION
+launch thunderbird,OPEN_APPLICATION
+open camera app,OPEN_APPLICATION
+start screen recorder,OPEN_APPLICATION
+launch task manager app,OPEN_APPLICATION
+find physics assignment pdf,FIND_FILE
+search for chemistry lab manual,FIND_FILE
+locate project presentation pptx,FIND_FILE
+where is my python script,FIND_FILE
+search for database notes,FIND_FILE
+find machine learning assignment,FIND_FILE
+look for interview preparation doc,FIND_FILE
+search for fee receipt pdf,FIND_FILE
+locate hall ticket document,FIND_FILE
+find semester mark sheet,FIND_FILE
+search for resume 2026 pdf,FIND_FILE
+where is config json stored,FIND_FILE
+locate docker compose file,FIND_FILE
+find sql queries file,FIND_FILE
+search for project architecture diagram,FIND_FILE
+look for sample paper pdf,FIND_FILE
+find meeting notes docx,FIND_FILE
+search for system architecture spec,FIND_FILE
+create a new python file called main.py,CREATE_FILE
+make a file named test.py,CREATE_FILE
+create document notes.md,CREATE_FILE
+make a file called links.txt,CREATE_FILE
+create file index.js,CREATE_FILE
+make a file named styles.css,CREATE_FILE
+create a text file named draft.txt,CREATE_FILE
+make an empty file called logs.txt,CREATE_FILE
+create file project_ideas.txt,CREATE_FILE
+make a file called daily_log.txt,CREATE_FILE
+create new file config.yaml,CREATE_FILE
+make a file named requirements.txt,CREATE_FILE
+create file test_cases.py,CREATE_FILE
+make a markdown file called README.md,CREATE_FILE
+create file database.sql,CREATE_FILE
+make a text file named key_points.txt,CREATE_FILE
+create scratch file demo.txt,CREATE_FILE
+open data structure and algorithms workspace,OPEN_WORKSPACE
+launch web dev environment,OPEN_WORKSPACE
+start deep learning workspace,OPEN_WORKSPACE
+open flutter development workspace,OPEN_WORKSPACE
+launch cybersecurity workspace,OPEN_WORKSPACE
+start android studio workspace,OPEN_WORKSPACE
+open devops workspace,OPEN_WORKSPACE
+launch react development environment,OPEN_WORKSPACE
+start backend api workspace,OPEN_WORKSPACE
+open cloud computing workspace,OPEN_WORKSPACE
+launch sql database workspace,OPEN_WORKSPACE
+start system design workspace,OPEN_WORKSPACE
+open full stack dev workspace,OPEN_WORKSPACE
+launch blockchain project workspace,OPEN_WORKSPACE
+start ui ux design environment,OPEN_WORKSPACE
+summarize research paper on transformer models,DOCUMENT_QUERY
+read project report and give key findings,DOCUMENT_QUERY
+what are the main conclusions in document pdf,DOCUMENT_QUERY
+extract bullet points from syllabus pdf,DOCUMENT_QUERY
+explain section 2 of this pdf,DOCUMENT_QUERY
+give me a quick summary of lecture notes,DOCUMENT_QUERY
+what is discussed in chapter 3 of this document,DOCUMENT_QUERY
+summarize technical specifications pdf,DOCUMENT_QUERY
+read article pdf and explain the summary,DOCUMENT_QUERY
+extract action items from meeting notes,DOCUMENT_QUERY
+summarize thesis introduction,DOCUMENT_QUERY
+explain methodology section of paper,DOCUMENT_QUERY
+what are the results reported in this pdf,DOCUMENT_QUERY
+generate exploratory data analysis report for sales.csv,DATA_ANALYSIS
+check dataset for missing values and duplicates,DATA_ANALYSIS
+plot boxplot for score distribution,DATA_ANALYSIS
+show scatter plot of height vs weight,DATA_ANALYSIS
+calculate mean median and standard deviation of dataset,DATA_ANALYSIS
+show dataset summary statistics for sample_marks.csv,DATA_ANALYSIS
+plot pie chart of grade distribution,DATA_ANALYSIS
+generate correlation matrix for features,DATA_ANALYSIS
+perform data cleaning on dataset.csv,DATA_ANALYSIS
+fill missing values with column median,DATA_ANALYSIS
+drop duplicate rows from table,DATA_ANALYSIS
+visualize frequency distribution of dataset,DATA_ANALYSIS
+plot bar graph of monthly revenue,DATA_ANALYSIS
+compute summary metrics for numeric columns,DATA_ANALYSIS
+explain how neural networks learn,GENERAL_QUESTION
+what is activation function in deep learning,GENERAL_QUESTION
+explain convolutional neural networks,GENERAL_QUESTION
+what is recurrent neural network,GENERAL_QUESTION
+how does random forest algorithm work,GENERAL_QUESTION
+what is support vector machine,GENERAL_QUESTION
+explain transformer architecture in nlp,GENERAL_QUESTION
+what is attention mechanism,GENERAL_QUESTION
+explain reinforcement learning,GENERAL_QUESTION
+what is object oriented programming,GENERAL_QUESTION
+explain polymorphism in python,GENERAL_QUESTION
+what is recursion in computer science,GENERAL_QUESTION
+explain time complexity and big o notation,GENERAL_QUESTION
+what is dynamic programming,GENERAL_QUESTION
+explain binary search algorithm,GENERAL_QUESTION
+what is hash table data structure,GENERAL_QUESTION
+explain rest api architecture,GENERAL_QUESTION
+what is docker containerization,GENERAL_QUESTION
+explain git version control system,GENERAL_QUESTION
+what is agile software development,GENERAL_QUESTION
+
