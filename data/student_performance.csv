@@ -1,0 +1,17 @@
+Student_ID,Name,Maths,Science,English,Computer_Science,Attendance_Pct
+101,Aarav Sharma,88.0,92.0,85.0,95.0,94.5
+102,Diya Patel,95.0,89.0,92.0,98.0,96.0
+103,Rohan Verma,72.0,78.0,68.0,82.0,88.0
+104,Ananya Gupta,91.0,,88.0,94.0,92.0
+105,Kabir Singh,84.0,86.0,80.0,89.0,90.5
+106,Ishaan Kumar,62.0,68.0,60.0,70.0,82.0
+107,Meera Reddy,98.0,96.0,95.0,99.0,98.5
+108,Aditya Joshi,79.0,83.0,75.0,85.0,89.0
+109,Tanvi Rao,86.0,88.0,,92.0,91.0
+110,Vikram Malhotra,90.0,85.0,89.0,93.0,93.0
+105,Kabir Singh,84.0,86.0,80.0,89.0,90.5
+111,Priya Nair,93.0,91.0,94.0,96.0,95.0
+112,Arjun Mehta,76.0,80.0,72.0,84.0,86.5
+113,Neha Saxena,97.0,95.0,96.0,98.0,97.0
+114,Dev Kapoor,81.0,84.0,79.0,87.0,88.5
+115,Sanya Das,89.0,87.0,90.0,92.0,92.5

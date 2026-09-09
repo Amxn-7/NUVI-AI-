@@ -1,0 +1,16 @@
+Region,Product_Category,Units_Sold,Revenue_USD,Profit_Margin_Pct
+North,Electronics,450,135000.0,22.5
+South,Furniture,210,52500.0,18.0
+East,Office Supplies,680,34000.0,25.0
+West,Electronics,520,156000.0,24.0
+Central,Apparel,890,44500.0,30.0
+North,Furniture,180,45000.0,16.5
+South,Electronics,390,117000.0,21.0
+East,Apparel,750,37500.0,28.5
+West,Office Supplies,620,31000.0,26.0
+Central,Electronics,480,144000.0,23.0
+North,Office Supplies,590,29500.0,24.5
+South,Apparel,810,40500.0,29.0
+West,Furniture,230,57500.0,19.0
+Central,Furniture,195,48750.0,17.5
+East,Electronics,510,153000.0,23.5
