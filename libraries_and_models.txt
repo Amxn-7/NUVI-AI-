@@ -1,0 +1,119 @@
+================================================================================
+                    NUVI (AI) DESKTOP COMPANION ASSISTANT
+                    PROJECT LIBRARIES AND MODELS SUMMARY
+================================================================================
+
+This document lists all Python libraries, Machine Learning (ML) models, and Large Language Models (LLMs) used in the NUVI (AI) Desktop Companion project, explained in plain and easy-to-understand language.
+
+--------------------------------------------------------------------------------
+1. MACHINE LEARNING & AI MODELS USED
+--------------------------------------------------------------------------------
+
+1. TF-IDF Text Vectorizer Model (Saved as: models/tfidf_vectorizer.pkl)
+   - What it is: A text-to-numbers feature extraction model built using Scikit-Learn (TfidfVectorizer).
+   - What it does (in easy language): Computers cannot read words directly; they only understand numbers. This model takes text typed or spoken by the user (like "open chrome" or "play music") and converts it into a grid of numbers. It gives higher importance to key action words (like "chrome" or "music") and less importance to common filler words (like "the" or "is"). It analyzes both 1-word and 2-word combinations (unigrams and bigrams).
+
+2. Intent Classifier Model (Saved as: models/intent_classifier.pkl)
+   - What it is: A local Machine Learning classification model trained using Multinomial Logistic Regression.
+   - What it does (in easy language): This is NUVI's local "brain" for command understanding. It takes the number vector created by the TF-IDF model and instantly categorizes the user's command into 1 of 10 intents:
+     * OPEN_APPLICATION (e.g., launching Chrome, Spotify, Notepad)
+     * FIND_FILE (e.g., searching for documents or PDFs)
+     * SYSTEM_CONTROL (e.g., changing volume, muting audio)
+     * MEDIA_CONTROL (e.g., play/pause music)
+     * BROWSER_ACTION (e.g., opening websites)
+     * DATAFRAME_ANALYSIS (e.g., analyzing CSV datasets)
+     * WEATHER_QUERY (e.g., checking weather forecasts)
+     * AI_CONVERSATION (e.g., general chat with AI)
+     * TIME_DATE (e.g., checking current time or date)
+     * SYSTEM_STATUS (e.g., checking CPU or RAM usage)
+   - Performance: Achieves 97.78% accuracy on test data and responds locally in under 5 milliseconds without requiring internet access.
+
+3. OpenRouter / GPT-4o-Mini Cloud AI Model (Configured via API)
+   - What it is: A Large Language Model (LLM) powered by OpenAI (GPT-4o-mini) and connected via the OpenRouter API.
+   - What it does (in easy language): Powers NUVI's intelligent conversational abilities. When you ask complex general questions, request writing help, or ask questions about a PDF or CSV document (RAG - Retrieval-Augmented Generation), NUVI sends the question to this cloud AI model to generate detailed human-like answers.
+
+
+--------------------------------------------------------------------------------
+2. EXTERNAL PYTHON LIBRARIES (requirements.txt)
+--------------------------------------------------------------------------------
+
+1. CustomTkinter (customtkinter)
+   - What it does: Creates modern, sleek desktop user interface (UI) windows, floating widgets, buttons, input boxes, and dark mode styling.
+
+2. PyStray (pystray)
+   - What it does: Allows NUVI to run silently in the background by adding an icon to the Windows system tray (in the bottom-right taskbar area near the clock).
+
+3. PyAutoGUI (pyautogui)
+   - What it does: Automates mouse clicks and keyboard key presses on your computer for desktop automation.
+
+4. PyWin32 (pywin32 / win32gui / win32con)
+   - What it does: Connects Python directly to Microsoft Windows system features, letting NUVI manage open windows (minimize, focus, maximize) and control system volume.
+
+5. Watchdog (watchdog)
+   - What it does: Monitors computer folders in real-time to detect when new files are created, edited, or deleted.
+
+6. Psutil (psutil)
+   - What it does: Reads hardware performance information such as CPU usage percentage, available RAM memory, disk space, and running processes.
+
+7. SpeechRecognition (SpeechRecognition)
+   - What it does: Listens to voice commands recorded from your microphone and converts your spoken speech into written text.
+
+8. PyAudio (PyAudio)
+   - What it does: Connects Python to your computer's physical microphone hardware so SpeechRecognition can record your voice.
+
+9. ChromaDB (chromadb)
+   - What it does: A specialized vector database that stores text as mathematical embeddings for fast AI document search and memory retrieval.
+
+10. PyPDF2 (PyPDF2)
+    - What it does: Reads and extracts text content from PDF files so NUVI can analyze and answer questions about PDF documents.
+
+11. Pandas (pandas)
+    - What it does: Handles data tables and CSV files. It enables NUVI to calculate averages, inspect columns, clean missing data, and analyze datasets automatically.
+
+12. NumPy (numpy)
+    - What it does: Performs high-speed numerical calculations on arrays of numbers. It provides the foundation for pandas, scikit-learn, and vector mathematics.
+
+13. Scikit-Learn (scikit-learn)
+    - What it does: The machine learning library used to build, train, evaluate, and extract text features (TF-IDF + Logistic Regression) for NUVI's local intent classifier.
+
+14. Matplotlib (matplotlib)
+    - What it does: Draws graphs and visual charts (such as bar charts, histograms, and confusion matrix heatmaps) to visualize data and model metrics.
+
+15. Joblib (joblib)
+    - What it does: Saves trained machine learning models to `.pkl` files on disk and reloads them instantly when NUVI starts up.
+
+16. Pillow / PIL (pillow)
+    - What it does: Loads, resizes, crops, and animates images and GIFs (such as NUVI's animated desktop pet assistant widget).
+
+17. PyInstaller (pyinstaller)
+    - What it does: Bundles the entire Python project into a standalone executable file (`.exe`) for Windows so users can run NUVI without installing Python.
+
+
+--------------------------------------------------------------------------------
+3. BUILT-IN PYTHON STANDARD LIBRARIES USED
+--------------------------------------------------------------------------------
+
+1. os & pathlib
+   - What they do: Help NUVI navigate computer folders, check if files exist, and handle Windows file paths safely.
+
+2. sys
+   - What it does: Manages system-level settings, Python path variables, and clean application exit handling.
+
+3. re (Regular Expressions)
+   - What it does: Cleans text by removing special punctuation, extra spaces, and symbols before sending text to the ML model.
+
+4. json
+   - What it does: Reads and writes structured JSON configuration files and parses responses from web APIs.
+
+5. urllib (urllib.request & urllib.error)
+   - What it does: Sends secure HTTP network requests to the OpenRouter AI cloud server without requiring extra third-party HTTP packages.
+
+6. threading & queue
+   - What they do: Run heavy tasks (like listening to voice input, training models, or calling APIs) in the background so the desktop UI window stays fast and smooth.
+
+7. subprocess
+   - What it does: Opens desktop applications (like Chrome, Spotify, Notepad, Calculator) directly from Windows command lines.
+
+================================================================================
+Summary: NUVI uses lightweight local Machine Learning for fast local desktop control, Cloud AI (GPT-4o-mini) for smart answers, and standard Python GUI/System tools for desktop automation.
+================================================================================
